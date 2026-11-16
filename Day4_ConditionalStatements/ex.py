@@ -55,21 +55,21 @@ either 4 spaces ot one tab space
 # else:
 #     print('Not qualified')    
 
-cgpa=int(input('Enter your cgpa'))
+# cgpa=int(input('Enter your cgpa'))
 
-if cgpa>=0:
-    if cgpa>=90 and cgpa<100:
-        print('Grade A')
-    elif cgpa>=70 and cgpa<90:
-        print('Grade B')
-    elif cgpa>=50 and cgpa<70:
-        print('Grade C')
-    elif cgpa>=36 and cgpa<50:
-        print('Grade D')
-    else:
-        print('Grade F')
-else:
-    print('Please Enter proper cgpa')        
+# if cgpa>=0:
+#     if cgpa>=90 and cgpa<100:
+#         print('Grade A')
+#     elif cgpa>=70 and cgpa<90:
+#         print('Grade B')
+#     elif cgpa>=50 and cgpa<70:
+#         print('Grade C')
+#     elif cgpa>=36 and cgpa<50:
+#         print('Grade D')
+#     else:
+#         print('Grade F')
+# else:
+#     print('Please Enter proper cgpa')        
 
 # mot=input('Enter your MOT: ')
 # if mot=='Train':
@@ -82,3 +82,59 @@ else:
 #     print('I am travlling by Flight')
 # else:
 #     print('I am not travlling')                
+
+# loops
+
+#  terinory opeator
+
+# age=int(input('Enter your age: '))
+
+# #  'value if true' if condition else 'value if false'
+
+# res='Major' if age>=18 else 'minor'
+# print(res)
+
+# match:
+
+
+# diffent output is acting as inputs where for reach and every ans we are giving diffrent process
+
+# dayno=int(input('Enter day no: '))
+
+# match dayno:
+#     case 1:
+#         print('Sunday')
+#     case 2:
+#         print('Monday')
+#     case 3:
+#         print('Wed')
+#     case 4:
+#         print('Thurs')
+#     case 5:
+#         print('Friday')
+#     case 6:
+#         print('Sat')
+#     case _:
+#         print('Please enter a valid day no')    
+
+
+ice_cream=input('Enter your flavor: ')
+
+match ice_cream:
+    case 'choclet':
+        print('it is avaliable')
+    case 'strawberry':
+        print('it is available')
+    case 'fruit and nut':
+        print('it is available')
+    case 'mango':
+        print('it is available')
+    case 'caramel':
+        print('it is available')
+    case 'pistachio':
+        print('it is avaible')
+    case _:
+        print('we are out of stock') 
+                               
+
+
